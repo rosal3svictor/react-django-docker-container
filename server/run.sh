@@ -1,0 +1,1 @@
+watchmedo auto-restart --recursive --pattern="*.py" --directory="." -- ./manage.py runserver 0.0.0.0:3000 --settings=server.settings
